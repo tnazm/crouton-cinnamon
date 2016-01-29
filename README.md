@@ -25,3 +25,5 @@ Next, do:
 sudo apt-get install cinnamon
 ````
 This will install Cinnamon. However, you won't be able to use Cinnamon yet.
+
+Click [here](https://github.com/Tenn1518/crouton-cinnamon/archive/master.zip) in order to download the files needed to boot Cinnamon from your chroot. Unzip master.zip and
