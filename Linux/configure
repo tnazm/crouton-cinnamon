@@ -1,0 +1,6 @@
+# configure
+# Created by Tanzeem Nazmee
+
+scriptb="$(pwd)"
+
+cp xinitrc ~/.xinitrc
