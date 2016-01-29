@@ -1,0 +1,4 @@
+# .xinitrc
+# Allows xinit to boot Cinnamon
+
+exec cinnamon-session
