@@ -1,0 +1,9 @@
+#!/bin/bash
+# Created by Tenn1518
+# Allows you to boot into Cinnamon in a chroot
+
+scripta="$(pwd)"
+
+cp Chrome\ OS/startcinnamon /usr/local/bin/startcinnamon
+
+
