@@ -38,4 +38,8 @@ Now that you are back in Chrome OS, you should copy the startcinnamon script to 
 cd ~/Downloads/crouton-cinnamon
 sudo cp Chrome\ OS/startcinnamon /usr/local/bin/startcinnamon
 ```
-The chroot now has cinnamon installed, but it doesn't have xinit, which you need to start Cinnamon. You can install xinit by 
+The chroot now has cinnamon installed, but it doesn't have xinit, which you need to start Cinnamon. You can install xinit by exiting the chroot with the "exit" command. Now, you can update your chroot and add the xorg target by:
+```
+sudo sh ~/Downloads/crouton -u -n trusty -t xorg
+``` 
+You may need to replace trusty if you installed a different release of trusty.
